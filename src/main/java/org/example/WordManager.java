@@ -24,6 +24,7 @@ public class WordManager {
             if(select == 0) break;
             else if(select == 4){
                 a.add();
+                System.out.println("새 단어장에 추가되었습니다.!!!\n");
             }
             else if(select == 1){
                 a.listAll();
