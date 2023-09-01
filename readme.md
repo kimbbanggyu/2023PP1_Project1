@@ -1,7 +1,6 @@
 실행 결과 파일
 
-<img>
-![실프과제1](https://github.com/kimbbanggyu/2023PP1_Project1/assets/126431824/8d0befca-362b-4a7d-9593-f8c0d972a82a)
+<img>![실프과제1](https://github.com/kimbbanggyu/2023PP1_Project1/assets/126431824/8d0befca-362b-4a7d-9593-f8c0d972a82a)
 
 ![실프과제2](https://github.com/kimbbanggyu/2023PP1_Project1/assets/126431824/b27cfbb3-e27f-4a0a-b9ea-3c687f4c3fb1)
 
