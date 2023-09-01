@@ -48,7 +48,7 @@ public class Word {
         this.meaning = meaning;
     }
 
-    public String toString(){
+    public String toString(){//toString overriding
         String str = "";
         for(int i=0; i<level; i++) str += "*";
         str += String.format("%15s",word) + " "+ meaning;
