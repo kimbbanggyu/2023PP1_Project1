@@ -21,7 +21,7 @@ public class WordManager {
 
 
     public void start() {
-       // w.loadData();
+        w.loadData();
         while(true) {
             int menu = Menu();
             if (menu == 0) break;
@@ -29,10 +29,10 @@ public class WordManager {
                 w.listAll();
             }
             else if(menu == 2){
-                //w.level();
+                w.level();
             }
             else if(menu ==3){
-                //w.word();
+                w.word();
             }
             else if(menu == 4){
                 w.add();
@@ -44,8 +44,9 @@ public class WordManager {
                 w.delete();
             }
             else if(menu == 7){
-                //w.saveData();
+                w.saveData();
             }
         }
+        System.out.println("\n프로그램 종료! 다음에 만나요~");
     }
 }
