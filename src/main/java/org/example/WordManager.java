@@ -2,7 +2,7 @@ package org.example;
 import java.util.Scanner;
 public class WordManager {
     Scanner s = new Scanner(System.in);
-    WordCRUD a = new WordCRUD(s);
+    WordCRUD w = new WordCRUD(s);
     public int Menu(){
         System.out.println("*** 영단어 마스터 ***\n");
         System.out.println("*******************");
@@ -18,19 +18,34 @@ public class WordManager {
         System.out.println("=> 원하는 메뉴는?");
         return s.nextInt();
     }
-    public void selectMenu(){
-        while(true){
-            int select = Menu();
-            if(select == 0) break;
-            else if(select == 4){
-                a.add();
-                System.out.println("새 단어장에 추가되었습니다.!!!\n");
+
+
+    public void start() {
+        //w.loadData();
+        while(true) {
+            int menu = Menu();
+            if (menu == 0) break;
+            else if (menu == 1) {
+                w.listAll();
             }
-            else if(select == 1){
-                a.listAll();
+            else if(menu == 2){
+                //w.level();
+            }
+            else if(menu ==3){
+                //w.word();
+            }
+            else if(menu == 4){
+                w.add();
+            }
+            else if(menu == 5){
+                w.update();
+            }
+            else if(menu ==6){
+                w.delete();
+            }
+            else if(menu == 7){
+                //w.saveData();
             }
         }
     }
-
-
 }
