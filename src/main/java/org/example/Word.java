@@ -54,6 +54,6 @@ public class Word {
     }
 
     public String toFileString(){
-        return level +"|"+ word+"|"+meaning;
+        return level +"|"+ word.trim()+"|"+meaning;
     }
 }

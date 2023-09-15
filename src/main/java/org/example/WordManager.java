@@ -21,7 +21,7 @@ public class WordManager {
 
 
     public void start() {
-        //w.loadData();
+       // w.loadData();
         while(true) {
             int menu = Menu();
             if (menu == 0) break;
